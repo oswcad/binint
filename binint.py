@@ -4,9 +4,9 @@ import numpy as np
 
 hide_menu = """
 <style>
-#MainMenu { 
+/* #MainMenu { 
      visibility: hidden; 
-} 
+} */
 
 footer {
     visibility: visible;
