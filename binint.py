@@ -36,7 +36,7 @@ help.write("""
 
 - Enter the number of bits and a decimal number
 
-Results appear in either of two tabs of:
+Results appear in either of three tabs of:
 
 - Powers of 2
 - Natural binary
@@ -54,21 +54,7 @@ def n2bin(decimal, bits):
     return bvaluepadded
 
 
-   
-
 st.sidebar.markdown('**Parameters**')
-
-# def clear_form():
-#     st.session_state["input"] = ""
-#     st.session_state["output"] = ""
-
-# reset = st.sidebar.button('Reset', on_click=clear_form)
-
-# if "submit_boolean" not in st.session_state:
-#     st.session_state.submit_boolean = False
-
-# if "msop_boolean" not in st.session_state:
-#     st.session_state.msop_boolean = False
 
 # inputs
 no_bits = st.sidebar.number_input('Size in bits', min_value=1, max_value=13, value = 4, step=1, format='%d')
