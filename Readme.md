@@ -13,6 +13,8 @@ Inputs:
 
 Outputs: Three tabs are displayed. One for explainign the powers of 2 used to write binary numbers. Select the coresponding tab according to your selection of *Natural Binary* or *2's complement*.
 
+This is deploy in: https://oswcad-binint-binint-ojpyg1.streamlit.app
+
 
 
 
