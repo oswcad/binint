@@ -75,6 +75,9 @@ with tab1:
     st.dataframe(data=table)
     st.markdown(f"Position {headers[-1]} with weight 1 is referred to as **LSB** (*Least Significant Bit*)")
     st.markdown(f"Position {headers[0]} with weight {powers[0]} is referred to as **MSB** (*Most Significant Bit*)")
+    st.markdown(f'A decimal number such as 2036, each symbol is called a *digit*. In binary we use symbols, **0**, **1** and we call them **bits**')
+    st.markdown(f'Use tab *Natural binary* to undertand writing binary numbers for whole positive numbers such as 0, 3, 14 etc.')
+    st.markdown(f"Use tab *2's complement* to undertand writing binary numbers for integers; that is positive numbers such as 0, 3, 14 etc. and also negative numbers such as -1, -23, etc.")
 
 with tab2:
     if bin_integer == 'Natural binary':
