@@ -203,12 +203,12 @@ with tab3:
                         )
                         st.latex("2^{p-1}-1")
                         st.write(
-                            f"that is {numsuper[no_bits-1]}-1 = {lmax} with {no_bits} bits"
+                            f"that is {numsuper[no_bits-1]}-1 = {l2max} with {no_bits} bits"
                         )
                         st.write(f"\nAs the integer value is positive:")
                         st.write(f"- Write the value of {value} in natural binary")
                         st.write(
-                            f"- Make sure that {value} <= {lmax} (max with {no_bits} bits)"
+                            f"- Make sure that {value} <= {l2max} (max with {no_bits} bits)"
                         )
                         st.write("Note that the MSB is 0 in this case")
                     if value < 0:
@@ -217,10 +217,10 @@ with tab3:
                         )
                         st.latex("-2^{p-1}")
                         st.write(
-                            f"that is -{numsuper[no_bits-1]} = {lmin} with {no_bits} bits"
+                            f"that is -{numsuper[no_bits-1]} = {l2min} with {no_bits} bits"
                         )
                         st.write(
-                            f"- Make sure that {value} >= {lmin} (min with {no_bits} bits)"
+                            f"- Make sure that {value} >= {l2min} (min with {no_bits} bits)"
                         )
                         st.write(
                             f"For a decimal value *x*, with *p* bits the following property holds:"
